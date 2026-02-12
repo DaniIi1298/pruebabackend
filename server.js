@@ -6,7 +6,7 @@ dotenv.config();
 
 const app = express();
 const PORT = Number(process.env.PORT) || 3000;
-const CORS_ORIGIN = process.env.CORS_ORIGIN || "https://pruebavercel-dcdl311jn-daniiis-projects-8313ca43.vercel.app";
+const CORS_ORIGIN = process.env.CORS_ORIGIN || "http://localhost:5173";
 
 app.use(express.json());
 
